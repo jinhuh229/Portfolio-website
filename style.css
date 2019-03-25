@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+*{
+
+
+}
+
+body{
+
+}
+
+.img-container{
+  background-image: url("./image/banner2.jpg");
+  height:1000px;
+  background-position:center;
+  background-size:cover;
+
+}
+
+.btn{
+  background-color: #800000; /* Green */
+  border: none;
+  color: white;
+  padding: 1px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.btn:hover,.btn:active{
+  color: black;
+  transition: background-color 0.3s ease-in, color 0.3 ease-in;
+}
+
+
+
+#banner{
+  margin-top: 330px;
+  text-align:center;
+  width:100%;
+  color:white;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 45px;
+  position:absolute;
+
+}
+
+.link{
+  margin-top: 50px;
+  width:100%;
+  position:absolute;
+  text-align:right;
+  padding:30px;
+
+}
+
+.fa{
+  margin-left:40px;
+  color:white;
+}
+
+span.highlight{
+  color:#800000;
+}
+
+.navbar{
+  text-align: center;
+}
+
+.about-Container{
+  background-color:#D3D3D3;
+  height:1500px;
+  background-position:center;
+  background-size:cover;
+}
+
+.Container-title{
+  text-align: center;
+  margin-top:150px;
+  width:100%;
+  position:absolute;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:50px;
+  color:#696969;
+
+}
+
+.aboutme-Container{
+  text-align: center;
+  margin-top:300px;
+  width:100%;
+  position:absolute;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:16px;
+  color:black;
+
+
+}
+
+.Container-profilePic{
+  text-align: center;
+  margin-top:500px;
+  width:100%;
+  position:absolute;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:16px;
+  color:black;
+
+}
+
+
+.pic{
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+}
+
+.Container-graph{
+
+  text-align: center;
+  margin-top:850px;
+  width:100%;
+  position:absolute;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 20px;
+}
+
+li{
+  position:relative;
+  list-style:none;
+  margin:20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+.project-Container{
+  background-color:#F0F8FF;
+  height:1000px;
+  background-position:center;
+  background-size:cover;
+}
+
+
+
+
+
+.contact-Container{
+  background-color:#D3D3D3;
+  height:1000px;
+  background-position:center;
+  background-size:cover;
+}
+
+
+
+@media only screen and (max-width: 1005px){
+
+
+  .Container-profilePic{
+    text-align: center;
+    margin-top:600px;
+    width:100%;
+    position:absolute;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:16px;
+    color:black;
+
+  }
+
+
+  }
+
+
+@media only screen and (max-width: 962px){
+
+  #banner{
+    margin-top: 330px;
+    text-align:center;
+    width:100%;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    position:absolute;
+
+  }
+
+
+  .fa{
+    margin-left:5px;
+  }
+
+
+
+
+  }
+
+
+@media only screen and (max-width: 600px){
+
+
+  .Container-profilePic{
+    text-align: center;
+    margin-top:600px;
+    width:100%;
+    position:absolute;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:16px;
+    color:black;
+
+  }
+
+
+
+}
+
+@media only screen and (max-width: 570px){
+
+
+  .Container-profilePic{
+    text-align: center;
+    margin-top:650px;
+    width:100%;
+    position:absolute;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:16px;
+    color:black;
+
+  }
+
+  .Container-graph{
+
+    margin-top:1000px;
+    width:100%;
+    position:absolute;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 20px;
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-height: 800px) {
+
+  .img-container{
+    background-color:black;
+    height:800px;
+    background-position:center;
+    background-size:cover;
+
+  }
+
+  #banner{
+    margin-top: 300px;
+    text-align:center;
+    width:100%;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    position:absolute;
+
+  }
+}
+
+@media only screen and (max-height: 700px) {
+
+  .img-container{
+    background-color:black;
+    height:700px;
+    background-position:center;
+    background-size:cover;
+
+  }
+
+  #banner{
+    margin-top: 280px;
+    text-align:center;
+    width:100%;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    position:absolute;
+
+  }
+}
+
+
+@media only screen and (max-height: 600px) {
+
+  .img-container{
+    background-color:black;
+    height:600px;
+    background-position:center;
+    background-size:cover;
+
+  }
+}
+
+@media only screen and (max-height: 500px) {
+
+  .img-container{
+    background-color:black;
+    height:500px;
+    background-position:center;
+    background-size:cover;
+
+  }
+
+  #banner{
+    margin-top: 230px;
+    text-align:center;
+    width:100%;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    position:absolute;
+
+  }
+}
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+
+/* All Mobile Sizes (devices and browser) */
